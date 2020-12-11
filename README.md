@@ -34,6 +34,8 @@ React GitHub Languages
   The React GitHub language project is a simple and easy-to-use library for translating your React projects into different languages. The library directly consumes the language files from a GitHub repository.
 </p>
 
+<br />
+
 ## Features & Advantages
 * **Multiple languages** — with this library you can use as many languages as you want. All languages are listed in the language.json in your GitHub repository.
 
