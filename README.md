@@ -52,6 +52,20 @@ React GitHub Languages can be installed via the npm packet manager.
 npm install @pretronic/react-github-languages
 ```
 
+After the installation, create a new GitHub repository and add a new language file (en.json). An example repository can be found [here](https://github.com/Pretronic/PretronicAccountTranslations). 
+
+```json
+{
+  "name": "English",
+  "localName": "English",
+  "code": "en",
+  "messages": {
+    "page.description": "Today is the {today}"
+  }
+}
+```
+
+
 Your app can be localized very easily. Just set up the language provider and pass your variables to the 
 message component, and finally translate your messages. You can find a clear introduction [here](https://docs.pretronic.net/react-github-languages/).
 
@@ -78,3 +92,14 @@ export default class App extends React.Component<{}, {}> {
 ```
 
 ## License
+The React GitHub Languages Project is under the Apache License, version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at:
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+License for the specific language governing permissions and limitations
+under the License.
