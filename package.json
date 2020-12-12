@@ -1,6 +1,6 @@
 {
   "name": "@pretronic/react-github-languages",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "private": false,
   "description": "GitHub language provider",
   "main": "dist/index.js",
@@ -20,7 +20,7 @@
     "github"
   ],
   "author": "Pretronic",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/Pretronic/react-github-languages/issues"
   },
